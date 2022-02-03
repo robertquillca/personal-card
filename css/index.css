@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .body {
-    font-family: 'chirp';
+    font-family: 'Chirp';
     min-height: 100vh;
     display: flex; 
     background-color:rgba(0, 0, 0, 0.959); 
@@ -20,27 +20,33 @@
     text-align: center;
 }
 
-.main_img {
-    border-radius: 50%;
+/*header*/
+.header_img-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.header_profile-img {
     width: 100%;
+    border-radius: 50%;
     max-width: 220px;
 }
 
-.main_tittle {
+/* article */
+.article_tittle {
     color: rgb(255, 252, 79); 
 }
 
-.main_subtittle {
+.article_subtittle {
     color: white;
     font-size: 1rem;
 }
 
-.main_description {
+.article_description {
     color: white;
     font-weight: 100;
 }
-/* skills */
 
+/* skills */
 .skills_tittle {
     color: white;
 }
