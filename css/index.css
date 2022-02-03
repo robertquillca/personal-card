@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.body {
+    font-family: 'chirp';
+    min-height: 100vh;
+    display: flex; 
+    background-color:rgba(0, 0, 0, 0.959); 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* main */
+.main {
+    max-width: 400px;
+    max-height: 600px;
+    background-color: rgba(27, 27, 27, 0.959);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.main_img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 220px;
+}
+
+.main_tittle {
+    color: rgb(255, 252, 79); 
+}
+
+.main_subtittle {
+    color: white;
+    font-size: 1rem;
+}
+
+.main_description {
+    color: white;
+    font-weight: 100;
+}
+/* skills */
+
+.skills_tittle {
+    color: white;
+}
+
+.skills_subtittle{
+    color: white;
+}
+
+.skills_list {
+    color: white; 
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    gap: .6rem;
+}
+
+.skill {
+    font-size: .75rem;
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.959); 
+    list-style: none;
+    background-color: rgb(255, 252, 79); 
+    border-radius: .45rem;
+    padding: 6px; 
+    
+}
+
+/* footer-contact*/
+.footer_contact {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact_img { 
+    width: 35px;
+    color: #ffff; 
+}
+
