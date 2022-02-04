@@ -2,6 +2,7 @@
 
 .body {
     font-family: 'Chirp';
+    text-align: center;
     min-height: 100vh;
     display: flex; 
     background-color:rgba(0, 0, 0, 0.959); 
@@ -22,7 +23,7 @@
 
 /*header*/
 .header_img-container {
-    max-width: 300px;
+    max-width: 18.76rem;
     margin: 0 auto;
 }
 .header_profile-img {
@@ -33,7 +34,9 @@
 
 /* article */
 .article_tittle {
-    color: rgb(255, 252, 79); 
+    color: rgb(255, 252, 79);
+    font-family: 800;
+    letter-spacing: .09rem;
 }
 
 .article_subtittle {
@@ -43,7 +46,8 @@
 
 .article_description {
     color: white;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: .9rem; 
 }
 
 /* skills */
