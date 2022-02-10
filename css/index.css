@@ -17,7 +17,7 @@
   min-height: 100vh;
   margin: 0;
 }
-/* main */
+/* MAIN */
 .main {
   background-color: rgb(34, 34, 34);
   display: flex;
@@ -28,6 +28,7 @@
   border-radius: 3.5rem;
 }
 
+/* HEADER */
 .header {
   display: flex;
 }
