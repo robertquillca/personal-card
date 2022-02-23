@@ -1,10 +1,6 @@
 /* font family imported from local */
 @font-face {
-<<<<<<< HEAD
   font-family: "Whyte";
-=======
-  font-family: "whyte";
->>>>>>> develop
   src: url("../font/Whyte-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
